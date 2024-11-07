@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins",sans-serif;
+    background-color: #056679
+}
+
+.Todoapp-container{
+
+   
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.Todoapp-input{
+    background-color:#055565;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #2e2a2a42;
+
+}
+
+h1{
+    margin: 0;
+    margin-bottom: 15px;
+    color: #1b6b7b;
+    font-size: 30px;
+}
+
+
+.Todoapp-input input{
+    border-radius: 5px;
+    border: 1px solid rgb(226,  226, 226);
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #055565;
+    outline: none;
+    color:  #08869e;
+
+}
+
+
+ul{
+   
+    text-align: left;
+    padding:0;
+   
+   
+
+}
+input::placeholder{
+    color:  #08869e;
+
+}
+
+ul li {
+    display: flex;
+    list-style: none;
+    background-color: #055565;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color:  #08869e;
+    box-shadow: 0 4px 6px #00000066;
+}
+
+ul li i{
+    text-align: right;
+    flex: 1;
+    cursor: pointer;
+}
